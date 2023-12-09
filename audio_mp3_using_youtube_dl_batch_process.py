@@ -1,4 +1,4 @@
-#C:\Users\sandy\Downloads\python youtube download\codes\using youtube_dl audio mp3.py
+
 
 
 import youtube_dl
@@ -6,7 +6,7 @@ import time
 
 def download_audio(url, output_path):
 
-    # Your options for downloading audio
+    # Options for downloading audio
     ydl_opts = {
         'format': 'bestaudio/best',
         'outtmpl': output_path + '/%(title)s.%(ext)s',
